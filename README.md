@@ -5,7 +5,7 @@ WiMMed is a hydrological model, fully distributed and physically based, that sim
 In the included example, we simulate the whole Sierra Nevada at 90x90 m for the year 2007 to calculate the final maps of surface runoff and aquifer discharge. For that, the project provides the input data related to:
 - topography (DEM, from which the rest of topographical properties are automatically calculated), 
 - meteorology (precipitation, temperature, solar radiation, wind speed, relative humidity), 
-- soil properties (physical and hydrological properties as saturated hydraulic conductivity, depth,..., in two different layers), 
+- soil properties (physical and hydrological properties as saturated hydraulic conductivity, depth, soil moisture saturation..., in two different layers), 
 - and vegetation cover (vegetation fraction cover, vegetation maximum storage capacity, transpiration capacity).
 
 The outputs of the model are:
