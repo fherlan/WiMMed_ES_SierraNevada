@@ -7,6 +7,7 @@ In the included example, we simulate the whole Sierra Nevada at 90x90 m for the 
 - meteorology (precipitation, temperature, solar radiation, wind speed, relative humidity), 
 - soil properties (physical and hydrological properties as saturated hydraulic conductivity, depth,..., in two different layers), 
 - and vegetation cover (vegetation fraction cover, vegetation maximum storage capacity, transpiration capacity).
+
 The outputs of the model are:
 - Surface runoff, which is an Ecosystem Service of water regulation, as it represents the excess of water that will directly flow into the rivers, what makes it susceptible to generate floods.
 - Aquifer discharge, an Ecosytem Service of water provisioning. The ground water provision in Sierra Nevada is highly related with the available water for drinking and cropping in low-elevation places during the summer periods.
