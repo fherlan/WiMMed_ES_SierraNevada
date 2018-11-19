@@ -1,0 +1,14 @@
+{
+  "scripts": [
+    {
+      "repoPath": "runStorm.sh",
+      "targetPath": "runStorm.sh",
+      "pathType": "FILE"
+ },
+    {
+      "repoPath": "WiMMed",
+      "targetPath": "WiMMed",
+      "pathType": "FILE"
+ }
+  ]
+}
