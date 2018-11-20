@@ -15,6 +15,8 @@ The outputs of the model are:
 
 All the input and output maps use ED50 UTM zone 30-North projection (EPSG:23030). The format of these rasters is ESRI ASCII Grid.
 
+The complete simulation of the example (whole year) takes 3 h 16' in an Intel i5-4460 3.20 GHz, with 8 GB RAM, on Fedora 22, 64 bits. The included executable (WiMMed) is developed for Fedora.
+
 WiMMed application is a free software and the Windows version with a GIS-based frontend can be downloaded from www.uco.es/dfh
 
 WiMMed can be also executed through a virtual laboratory developed by ECOPOTENTIAL project (http://ecopotential-project.eu/). Files under "VLAB" folder enable this functionality. The virtual laboratory can be accessed at: https://vlab.geodab.eu/
