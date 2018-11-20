@@ -2,9 +2,9 @@
 Calculation of Ecosystem Services related to hydrology (Aquifer recharge and surface runoff) with the hydrological model WiMMed in Sierra Nevada (Spain) for a specific period. 
 
 WiMMed is a hydrological model, fully distributed and physically based, that simulates the whole water cycle. It starts with meteorological modules to interpolate the meteorological variables in space (meters) and time (hourly). Then it simulates interception, snow accumulation, snowmelt, infiltration, surface runoff, soil water movement, evapotranspiration, aquifer recharge, aquifer discharge, river flow, sediment production, and sediment transport. 
-In the included example (dataStorm), we simulate the whole Sierra Nevada at 90x90 m for a 2-days design storm to calculate the final maps of surface runoff and aquifer discharge. For that, the project provides the input data related to:
+In the included example (2007-2008), we simulate the whole Sierra Nevada at 90x90 m for a complete water year (from Sep 2007 to Aug 2008) to calculate the final maps of surface runoff and aquifer discharge. For that, the project provides the input data related to:
 - topography (DEM, from which the rest of topographical properties are automatically calculated), 
-- meteorology (precipitation, temperature, solar radiation, wind speed, relative humidity), 
+- meteorology (precipitation, temperature, solar radiation, wind speed, relative humidity) measured in meteorological stations, 
 - soil properties (physical and hydrological properties as saturated hydraulic conductivity, depth, soil moisture saturation..., in two different layers), 
 - and vegetation cover (vegetation fraction cover, vegetation maximum storage capacity, transpiration capacity).
 
