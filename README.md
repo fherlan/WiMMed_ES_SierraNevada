@@ -15,7 +15,7 @@ The outputs of the model are:
 
 All the input and output maps use ED50 UTM zone 30-North projection (EPSG:23030). The format of these rasters is ESRI ASCII Grid.
 
-The complete simulation of the example (whole year) takes 3 h 16' in an Intel i5-4460 3.20 GHz, with 8 GB RAM, on Fedora 22, 64 bits. The included executable (WiMMed) is developed for Fedora.
+The complete simulation of the example (whole year) takes 3 h 16' in an Intel i5-4460 3.20 GHz, with 8 GB RAM, on Fedora 22, 64 bits. The included executable (WiMMed) is developed for Fedora. The execution can be stop using CTRL+C in the bash shell.
 
 WiMMed application is a free software and the Windows version with a GIS-based frontend can be downloaded from www.uco.es/dfh
 
