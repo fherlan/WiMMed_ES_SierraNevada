@@ -1,5 +1,5 @@
 {
-  "image": "fedora",
+  "image": "ecopotentialcerth/fedora_unzip",
   "resources": {
     "memory_mb": "5000",
     "cpu_units": ""
@@ -10,7 +10,7 @@
       "-c"
     ],
     "command": [
-      "./run07.sh"
+      "./run.sh"
     ]
   }
 }
