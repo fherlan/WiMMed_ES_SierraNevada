@@ -4,12 +4,12 @@
       "id": "WiMMed_input",
       "inputType": "individual",
       "valueType": "value",
-      "description": "zip file that contains all the data necessary to run WiMMed on Sierra Nevada from Sep 2007 to Aug 2008, named 'data2007-2008.zip'",
-      "name": "Data Water Year 2007-2008",
+      "description": "zip file that contains all the input data files necessary to run WiMMed, named 'data.zip'",
+      "name": "Input data",
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
-      "target": "data2007-2008.zip"
+      "target": "data.zip"
     }
   ],
   "outputs": [
@@ -18,7 +18,7 @@
       "outputType": "individual",
       "valueType": "value",
       "description": "Results from WiMMed. Final maps of meteorological and hydrological variables",
-      "name": "Hydrometeorological maps. Simulation from 2007-09-01 to 2008-08-31",
+      "name": "Output data",
       "valueSchema": "url",
       "target": "output.zip"
     }
