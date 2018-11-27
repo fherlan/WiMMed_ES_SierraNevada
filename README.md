@@ -3,12 +3,14 @@ Calculation of Ecosystem Services related to hydrology (Aquifer recharge and sur
 
 WiMMed is a hydrological model, fully distributed and physically based, that simulates the whole water cycle. It starts with meteorological modules to interpolate the meteorological variables in space (meters) and time (hourly). Then it simulates interception, snow accumulation, snowmelt, infiltration, surface runoff, soil water movement, evapotranspiration, aquifer recharge, aquifer discharge, river flow, sediment production, and sediment transport. 
 
-In the included example (2007-2008), we simulate the whole Sierra Nevada (Spain) at 90x90 m for a complete water year (from Sep 2007 to Aug 2008) to calculate the final maps of Ecosystem Services related to hydrology (Aquifer recharge and surface runoff). For that, the project (zipped in the file <data2007-2008.zip>) provides all the files with the input data related to:
+In the included example (Example_2007-2008), we simulate the whole Sierra Nevada (Spain) at 90x90 m for a complete water year (from Sep 2007 to Aug 2008) to calculate the final maps of Ecosystem Services related to hydrology (Aquifer recharge and surface runoff). For that, the project (zipped in the file <data.zip>) provides all the files with the input data related to:
 - topography (DEM, from which the rest of topographical properties are automatically calculated), 
 - meteorology (precipitation, temperature, solar radiation, wind speed, relative humidity) measured in meteorological stations, 
 - soil properties (physical and hydrological properties as saturated hydraulic conductivity, depth, soil moisture saturation..., in two different layers), 
 - and vegetation cover (vegetation fraction cover, vegetation maximum storage capacity, transpiration capacity).
 For a detailed information about the number of files and formats, please refer to the User manual (https://www.ugr.es/~herrero/wimmed/download.html)
+
+A second example (Example_Storm), simulates a made-up 2-days single storm with constant rain for the whole Sierra Nevada. It uses the same inputs and produces the same kind of outputs
 
 Once the simulation finishes, a number of output files will be generated and stored in the file <output.zip>:
 - Accumulated surface runoff generated in each cell, which is an Ecosystem Service of water regulation, as it represents the excess of water that will directly flow into the rivers, what makes it susceptible to generate floods (file <Tot_2007-09-01--2008-08-31_Exp.asc>, units in mm).
